@@ -1,4 +1,4 @@
-class Small_task():
+class SmallTask():
     def __init__(self, subject, task, week, number, done):
         self._subject = subject
         self._task = task
@@ -27,7 +27,7 @@ class Small_task():
         return self._done
 
     @done.setter
-    def done(self, new_done):
+    def is_done(self, new_done):
         if new_done != self._done:
             self._done = new_done
         return self._done
