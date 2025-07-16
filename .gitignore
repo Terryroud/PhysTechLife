@@ -1,0 +1,17 @@
+__pycache__/
+**/__pycache__
+
+build/
+.venv
+.idea
+
+.coverage
+.cache
+.pytest_cache/
+
+db.sqlite3
+db.sqlite3-journal
+
+.env
+
+
